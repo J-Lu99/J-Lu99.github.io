@@ -1,0 +1,11 @@
+<!-- templates/home.html -->
+{% extends 'base.html' %}
+{% block content %}
+<h1>Message board</h1>
+<u1>
+    {% for post in all_posts %}
+        <u1>{{ post }}</u1>
+    {% endfor %}
+</u1>
+{% endblock content %}
+
